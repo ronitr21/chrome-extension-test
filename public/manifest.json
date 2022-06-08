@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+
+  "name": "Uthrive Test",
+  "description": "Find the best credit card",
+  "version": "0.0.1",
+
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "open the popup"
+  },
+  "permissions":[
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*/",
+    "http://*/"
+  ]
+}
